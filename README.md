@@ -47,3 +47,17 @@ Software Used -
 
 * VS CODE
 * Wolframalpha
+
+# Get Started
+* Install the requirements. (Its recommended to use virtual environment.)
+```bash
+pip install -r requirements.txt
+```
+* Add wolframalpha app id in smalltalk.py
+```python
+app_id = "wolframalpha app id"
+```
+* Start the app
+```
+python arjun.py
+```
