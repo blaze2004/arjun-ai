@@ -1,3 +1,17 @@
+# imports
+import datetime
+from tkinter import *
+from tkinter import font
+from tkinter import messagebox
+from PIL import Image, ImageTk
+import random
+import os
+import wikipedia
+import webbrowser
+import pyttsx3
+import requests
+import wolframalpha as wf
+
 #_____________________________________________________________________________________________________________________
 #some user inputs
 # greetings
@@ -74,7 +88,6 @@ APPRECIATION_RESPONSES = ["Happy to help", "Nice to help you", "Glad you like it
 chatinitializer_words = ["Tell me something about python", "Hello, how can I help you?", "Try saying tell me the time.", "Try saying, open notepad.", "Try saying, open chrome.", "Try saying, tell me today's date", "I am waiting for your commands."]
 
 # time
-import datetime
 TIME_INPUTS =["time", "tell me the time", "what is the time", "what's the time", "time please"]
 TIME_HOUR = int(datetime.datetime.now().hour)
 if TIME_HOUR> 12:
@@ -146,18 +159,6 @@ initializer.extend(DATE_INPUTS)
 
 
 #________________________________________________________________________________________________________________________________________________________________________________________________________
-from tkinter import *
-from tkinter import font
-from tkinter import messagebox
-from PIL import Image, ImageTk
-import random
-import os
-import wikipedia
-import webbrowser
-import pyttsx3
-import requests
-import wolframalpha as wf
-
 class TODO:
 
     def arjun_response(self, user_response):
